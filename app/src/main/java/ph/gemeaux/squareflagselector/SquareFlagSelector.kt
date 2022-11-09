@@ -5,7 +5,8 @@ import java.util.*
 open class SquareFlagSelector {
 
     fun getFlagDrawable(countryCode: String?): Int {
-        return when (countryCode) {
+
+        return when (countryCode?.uppercase()) {
             "AF" -> R.drawable.af
             "AL" -> R.drawable.al
             "DZ" -> R.drawable.dz
