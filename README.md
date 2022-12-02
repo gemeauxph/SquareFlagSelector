@@ -6,7 +6,7 @@ Description
 A library which returns a vector drawable of square flags by providing the country name or country code.
 
 
-## Sample implementation
+## Sample Implementation
 <img src="https://i.imgur.com/mnX6W3M.jpg" height="400">
 
 ### Download in Google Play Store
