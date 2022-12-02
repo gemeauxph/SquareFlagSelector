@@ -1,11 +1,15 @@
 Square Flag Selector
 =============
 
-<img src="https://i.imgur.com/mnX6W3M.jpg" height="400">
-
 Description
 ------------
 A library which returns a vector drawable of square flags by providing the country name or country code.
+
+##Sample implementation
+<img src="https://i.imgur.com/mnX6W3M.jpg" height="400">
+
+#Download in Google Play Store
+https://play.google.com/store/apps/details?id=com.ulexio.orbitvpn
 
 ## Gradle Dependency
 
