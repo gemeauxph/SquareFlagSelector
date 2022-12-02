@@ -242,6 +242,7 @@ open class SquareFlagSelector {
             "YE" -> R.drawable.ye
             "ZM" -> R.drawable.zm
             "ZW" -> R.drawable.zw
+            "RS" -> R.drawable.rs
             else -> R.drawable.ic_map
         }
     }
