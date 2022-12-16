@@ -17,7 +17,7 @@ https://play.google.com/store/apps/details?id=com.ulexio.orbitvpn
 
  ``` gradle
 dependencies {
-    implementation 'com.github.gemeauxph:SquareFlagSelector:1.0.5'
+    implementation 'com.github.gemeauxph:SquareFlagSelector:1.0.7'
  }
  ```
 
