@@ -243,10 +243,13 @@ open class SquareFlagSelector {
             "ZM" -> R.drawable.zm
             "ZW" -> R.drawable.zw
             "RS" -> R.drawable.rs
-            else -> R.drawable.ic_default_flag
+            else -> R.drawable.ic_default
         }
     }
 
     fun getCountryCode(countryName: String?) =
-        Locale.getISOCountries().find { Locale("", it).displayCountry == countryName }
+        if (countryName == "Czechia")
+            "CZ"
+        else
+            Locale.getISOCountries().find { Locale("", it).displayCountry == countryName }
 }
