@@ -1,7 +1,5 @@
 package ph.gemeaux.squareflagselector
 
-import java.util.*
-
 open class SquareFlagSelector {
 
     fun getFlagDrawable(countryCode: String?): Int {
@@ -90,6 +88,7 @@ open class SquareFlagSelector {
             "GH" -> R.drawable.gh
             "GI" -> R.drawable.gi
             "GB" -> R.drawable.gb
+            "UK" -> R.drawable.gb
             "GR" -> R.drawable.gr
             "GL" -> R.drawable.gl
             "GD" -> R.drawable.gd
@@ -248,8 +247,5 @@ open class SquareFlagSelector {
     }
 
     fun getCountryCode(countryName: String?) =
-        if (countryName == "Czechia")
-            "CZ"
-        else
-            Locale.getISOCountries().find { Locale("", it).displayCountry == countryName }
+            CountryCodes().getCountryCode(countryName!!)
 }
