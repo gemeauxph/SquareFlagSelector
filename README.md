@@ -10,7 +10,7 @@ A library which returns a vector drawable of square flags by providing the count
 <img src="https://i.imgur.com/mnX6W3M.jpg" height="400">
 
 ### Download in Google Play Store
-https://play.google.com/store/apps/details?id=com.ulexio.orbitvpn
+https://play.google.com/store/apps/details?id=com.ulexio.orbitvpn<br>
 https://play.google.com/store/apps/details?id=com.ulexio.firecloakvpn
 
 ## Gradle Dependency
