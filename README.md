@@ -17,7 +17,7 @@ https://play.google.com/store/apps/details?id=com.ulexio.firecloakvpn
 
  ``` gradle
 dependencies {
-    implementation 'com.github.gemeauxph:SquareFlagSelector:1.0.7'
+    implementation 'com.github.gemeauxph:SquareFlagSelector:1.0.83'
  }
  ```
 
